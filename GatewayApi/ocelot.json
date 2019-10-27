@@ -16,6 +16,32 @@
       "UpstreamHttpMethod": []
     },
     {
+      "DownstreamPathTemplate": "/AutenticationLDAP/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/Autentication/LDAP /{everything}",
+      "UpstreamHttpMethod": []
+    },
+
+    {
+      "DownstreamPathTemplate": "/AutenticationOauth/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/Autentication/Oauth/{everything}",
+      "UpstreamHttpMethod": []
+    },
+
+    {
       "DownstreamPathTemplate": "/AutenticationDirectoryActive/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
@@ -26,18 +52,6 @@
       ],
       "UpstreamPathTemplate": "/Autentication/DirectoryActive/{everything}",
       "UpstreamHttpMethod": []
-    },
-    {
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 80
-        }
-      ],
-      "DownstreamPathTemplate": "/AutenticationLDAP/{everything}",
-      "DownstreamScheme": "http",
-      "UpstreamHttpMethod": [],
-      "UpstreamPathTemplate": "/Autentication/LDAP/{everything}"
     }
   ]
 }
