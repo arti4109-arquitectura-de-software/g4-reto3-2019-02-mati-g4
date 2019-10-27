@@ -1,0 +1,25 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Challenge
+/AtenticationChallenger/obj/Debug/netstandard2.0
+/AtenticationChallenger/obj
+/AtenticationChallenger/bin/Debug/netstandard2.0
+/Autentication/obj
+/AutenticationDirectoryActive/bin/Debug/netcoreapp2.2
+/AutenticationDirectoryActive/obj
+/AutenticationLDAP/bin/Debug/netcoreapp2.2
+/AutenticationLDAP/obj
+/AutenticationOauth/bin/Debug/netcoreapp2.2
+/AutenticationOauth/obj
+/AutenticationSingle/bin/Debug/netcoreapp2.2
+/AutenticationSingle/obj
+/Challenge/bin
+/Challenge/obj
+/GatewayApi/bin/Debug/netcoreapp2.2
+/GatewayApi/obj
+/HL7Service/bin/Debug/netcoreapp2.2
+/HL7Service/obj
+/Monitoring/bin
+/Monitoring/obj

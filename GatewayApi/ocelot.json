@@ -1,0 +1,43 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost/GatewayApi"
+  },
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/AutenticationSingle/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/Autentication/Single/{everything}",
+      "UpstreamHttpMethod": []
+    },
+    {
+      "DownstreamPathTemplate": "/AutenticationDirectoryActive/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/Autentication/DirectoryActive/{everything}",
+      "UpstreamHttpMethod": []
+    },
+    {
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/AutenticationLDAP/{everything}",
+      "DownstreamScheme": "http",
+      "UpstreamHttpMethod": [],
+      "UpstreamPathTemplate": "/Autentication/LDAP/{everything}"
+    }
+  ]
+}
