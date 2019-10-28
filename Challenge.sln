@@ -27,6 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{3F1D586D-6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHl7", "TestHl7\TestHl7.csproj", "{F4069BDD-BC0E-4B58-BB12-1370C35BB8B0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{64C8D336-A6B6-4AA8-864C-836067EE15B5}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\ASUS\Pictures\Componentes Autenticación.png = C:\Users\ASUS\Pictures\Componentes Autenticación.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
