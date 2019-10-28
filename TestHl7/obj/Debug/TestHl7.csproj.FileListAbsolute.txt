@@ -3,7 +3,6 @@ D:\Arquitectura de software\Aplicaciones\Reto 3\Challenge\TestHl7\bin\Debug\Test
 D:\Arquitectura de software\Aplicaciones\Reto 3\Challenge\TestHl7\bin\Debug\TestHl7.pdb
 D:\Arquitectura de software\Aplicaciones\Reto 3\Challenge\TestHl7\bin\Debug\Newtonsoft.Json.dll
 D:\Arquitectura de software\Aplicaciones\Reto 3\Challenge\TestHl7\bin\Debug\Newtonsoft.Json.xml
-D:\Arquitectura de software\Aplicaciones\Reto 3\Challenge\TestHl7\obj\Debug\TestHl7.csprojAssemblyReference.cache
 D:\Arquitectura de software\Aplicaciones\Reto 3\Challenge\TestHl7\obj\Debug\TestHl7.csproj.CoreCompileInputs.cache
 D:\Arquitectura de software\Aplicaciones\Reto 3\Challenge\TestHl7\obj\Debug\TestHl7.csproj.CopyComplete
 D:\Arquitectura de software\Aplicaciones\Reto 3\Challenge\TestHl7\obj\Debug\TestHl7.exe
